@@ -130,6 +130,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 const SizedBox(height: 20),
                 const Text(
                   'Join Cinema Club',
+                  textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
@@ -140,6 +141,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 const SizedBox(height: 8),
                 const Text(
                   'Create your account to start booking',
+                  textAlign: TextAlign.center,
                   style: TextStyle(fontSize: 14, color: Colors.black54),
                 ),
                 const SizedBox(height: 32),

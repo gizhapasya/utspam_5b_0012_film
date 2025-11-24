@@ -84,6 +84,7 @@ class _LoginPageState extends State<LoginPage> {
                   const SizedBox(height: 24),
                   const Text(
                     'CINEMA TICKET',
+                    textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 28,
                       fontWeight: FontWeight.bold,
@@ -94,6 +95,7 @@ class _LoginPageState extends State<LoginPage> {
                   const SizedBox(height: 8),
                   const Text(
                     'Book Your Next Experience',
+                    textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 14,
                       color: Colors.black54,
