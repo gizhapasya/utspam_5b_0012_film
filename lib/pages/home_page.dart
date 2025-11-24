@@ -130,21 +130,6 @@ class HomePage extends StatelessWidget {
                   const SizedBox(height: 16),
                   _buildFeatureCard(
                     context: context,
-                    icon: Icons.confirmation_number,
-                    title: 'Purchase Tickets',
-                    subtitle: 'Book tickets for your favorite movies',
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => MovieListPage(user: user),
-                        ),
-                      );
-                    },
-                  ),
-                  const SizedBox(height: 16),
-                  _buildFeatureCard(
-                    context: context,
                     icon: Icons.history,
                     title: 'Purchase History',
                     subtitle: 'View your booking records',
