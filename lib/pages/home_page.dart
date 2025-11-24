@@ -116,7 +116,7 @@ class HomePage extends StatelessWidget {
                   _buildFeatureCard(
                     context: context,
                     icon: Icons.movie_creation,
-                    title: 'Browse Movies',
+                    title: 'Browse Movies & Buy Tickets',
                     subtitle: 'Explore current showing films',
                     onTap: () {
                       Navigator.push(
