@@ -122,31 +122,27 @@ class _RegisterPageState extends State<RegisterPage> {
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 const SizedBox(height: 20),
-                Container(
-                  padding: const EdgeInsets.all(20),
-                  decoration: BoxDecoration(
-                    color: const Color(0xFF8B0000),
-                    borderRadius: BorderRadius.circular(16),
+                const Icon(
+                  Icons.local_movies,
+                  size: 64,
+                  color: Color(0xFF8B0000),
+                ),
+                const SizedBox(height: 20),
+                const Text(
+                  'Join Cinema Club',
+                  style: TextStyle(
+                    fontSize: 24,
+                    fontWeight: FontWeight.bold,
+                    color: Color(0xFF8B0000),
+                    letterSpacing: 1,
                   ),
-                  child: const Column(
-                    children: [
-                      Icon(Icons.local_movies, size: 48, color: Colors.white),
-                      SizedBox(height: 12),
-                      Text(
-                        'Join Cinema Club',
-                        style: TextStyle(
-                          fontSize: 22,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.white,
-                          letterSpacing: 1,
-                        ),
-                      ),
-                      SizedBox(height: 4),
-                      Text(
-                        'Create your account to start booking',
-                        style: TextStyle(fontSize: 13, color: Colors.white70),
-                      ),
-                    ],
+                ),
+                const SizedBox(height: 8),
+                const Text(
+                  'Create your account to start booking',
+                  style: TextStyle(
+                    fontSize: 14,
+                    color: Colors.black54,
                   ),
                 ),
                 const SizedBox(height: 32),

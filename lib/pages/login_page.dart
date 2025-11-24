@@ -76,35 +76,28 @@ class _LoginPageState extends State<LoginPage> {
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   const SizedBox(height: 40),
-                  Container(
-                    padding: const EdgeInsets.all(32),
-                    decoration: BoxDecoration(
-                      color: const Color(0xFF8B0000),
-                      borderRadius: BorderRadius.circular(20),
+                  const Icon(
+                    Icons.movie_filter,
+                    size: 80,
+                    color: Color(0xFF8B0000),
+                  ),
+                  const SizedBox(height: 24),
+                  const Text(
+                    'CINEMA TICKET',
+                    style: TextStyle(
+                      fontSize: 28,
+                      fontWeight: FontWeight.bold,
+                      color: Color(0xFF8B0000),
+                      letterSpacing: 2,
                     ),
-                    child: const Column(
-                      children: [
-                        Icon(Icons.movie_filter, size: 64, color: Colors.white),
-                        SizedBox(height: 16),
-                        Text(
-                          'CINEMA TICKET',
-                          style: TextStyle(
-                            fontSize: 26,
-                            fontWeight: FontWeight.bold,
-                            color: Colors.white,
-                            letterSpacing: 2,
-                          ),
-                        ),
-                        SizedBox(height: 8),
-                        Text(
-                          'Book Your Next Experience',
-                          style: TextStyle(
-                            fontSize: 14,
-                            color: Colors.white70,
-                            letterSpacing: 0.5,
-                          ),
-                        ),
-                      ],
+                  ),
+                  const SizedBox(height: 8),
+                  const Text(
+                    'Book Your Next Experience',
+                    style: TextStyle(
+                      fontSize: 14,
+                      color: Colors.black54,
+                      letterSpacing: 0.5,
                     ),
                   ),
                   const SizedBox(height: 48),
